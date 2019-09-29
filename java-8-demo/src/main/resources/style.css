@@ -1,0 +1,22 @@
+.label { 
+    -fx-background-color: #778855; 
+    -fx-font-family: helvetica; 
+    -fx-font-size: 450%; 
+    -fx-text-fill: yellow;
+} 
+.hbox { 
+    -fx-background-color: #2f4f4f; 
+    -fx-padding: 15; 
+    -fx-spacing: 10; 
+    -fx-alignment: center-right; 
+} 
+ 
+.button { 
+    -fx-border-width: 2px; 
+    -fx-background-color:#ff8800;
+    -fx-cursor: hand;
+} 
+
+#nextBtn { 
+    -fx-font-weight: bold; 
+}
