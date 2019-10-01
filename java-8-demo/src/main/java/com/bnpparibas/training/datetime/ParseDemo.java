@@ -32,6 +32,9 @@ public class ParseDemo {
         ParseDemo ageCalculator = new ParseDemo();
         LocalDate birthday = ageCalculator.getBirthday();
         Period age = ageCalculator.calculateAge(birthday);
+
+		System.out.println(age);
+
         System.out.printf("Today you are %d years, %d months"
                 + " and %d days old%n",
                 age.getYears(), age.getMonths(), age.getDays());

@@ -43,7 +43,7 @@ public class StreamReductionDemo2 {
         Stream<Order> stream = Stream.of(orders);
         return stream.filter(orderInGivenMonth)
                 .mapToDouble((order) -> order.value)
-                .reduce(0, (a, b) -> a+b);
+				.reduce(0, (a, b) -> a + b);
     }
     
 

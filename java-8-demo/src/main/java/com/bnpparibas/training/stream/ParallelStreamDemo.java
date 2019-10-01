@@ -7,7 +7,7 @@ import java.util.List;
 
 public class ParallelStreamDemo {
 
-	public synchronized static long fibonacci(long i) {
+	public static long fibonacci(long i) {
 		if (i == 1 || i == 2) {
 			return 1;
 		}
